@@ -1,0 +1,24 @@
+
+
+.overlay-image {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: rgba(0,0,0, 0.5);
+    transition: top 500ms ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay-image > img {
+    max-width: 95%;
+    border: 4px solid black;
+    background-color: #FFFFFF;
+}
+
+.overlay-image--open {
+    top: 0;
+}

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Mea+Culpa&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Mea Culpa', cursive;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 30px;
+    word-spacing: 2px;
+}
+
+p {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+main {
+    background: #A770EF;
+    background: -webkit-linear-gradient(to bottom, #FDB99B, #CF8BF3, #A770EF);
+    background: linear-gradient(to bottom, #FDB99B, #CF8BF3, #A770EF);  
+    min-height: calc(100vh - 132px);
+    display: grid;
+    place-items: center;
+}

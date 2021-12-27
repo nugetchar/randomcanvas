@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP Positions</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script defer src="./scripts/app.js"></script>
+    <script defer src="./scripts/menu.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>Random Canvas</h1>
+        <button id="open-menu_btn" class="menu-btn">
+            <span class="material-icons">
+                menu
+            </span>
+        </button>
+        <nav class="menu">
+            <button id="close-menu_btn" class="menu-btn">
+                <span class="material-icons">
+                    close
+                </span>
+            </button>
+            <ul>
+                <li><a href="./index.html">Create</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="canvas_container">
+            <h2>Click on the canvas to generate a random drawing</h2>
+            <canvas id="draw_canvas">
+                Désolé, votre navigateur ne prend pas en charge &lt;canvas&gt;.
+            </canvas>
+            <div class="canvas_menu">
+                <button id="save_btn" disabled="true">Save</button>
+                <button id="download_btn" disabled>Download</button>
+            </div>
+        </div>
+        <img id="image" src="" alt="">
+    </main>
+</body>
+
+</html>
